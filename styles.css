@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-content, .footer {
+    align-items: center;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+}
+.header {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+.top {
+    display: flex;
+}
+.middle {
+    display: flex;
+}
+.lower {
+    display: flex;
+}
+.bottom {
+    display: flex;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+li {
+    color: #E5E7EB;
+}
