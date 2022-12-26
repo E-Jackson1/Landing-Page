@@ -10,12 +10,48 @@ body {
     justify-content: space-around;
 }
 .header {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.top {
+    justify-content: center;
+    gap: 50px;
+    padding: 100px 200px;
+    align-items: center;
+    background-color: #1F2937;
+    display: flex;
+}
+.text {
+
+    width: 400px;
+    height: 220px;
+    flex-wrap: wrap;
+}
+.top-header {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
 }
-.top {
+.top-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 20px;
+}
+.sign-up {
+    color: #E5E7EB;
+    width: fit-content;
+    padding: 10px 40px;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+.img {
     display: flex;
+    color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    height: 220px;
+    width: 400px;
+    background-color: gray;
 }
 .middle {
     display: flex;
