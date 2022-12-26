@@ -10,11 +10,11 @@ body {
     display: flex;
     justify-content: center;
     gap: 350px;
+    color: #F9FAF8;
 }
 .header {
     font-weight: 900;
     font-size: 24px;
-    color: #F9FAF8;
 }
 .top {
     justify-content: center;
@@ -131,4 +131,7 @@ ul {
 }
 li {
     color: #E5E7EB;
+}
+.footer {
+    padding: 30px;
 }
