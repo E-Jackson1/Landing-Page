@@ -57,7 +57,27 @@ body {
     background-color: gray;
 }
 .middle {
+    justify-content: center;
+    align-items: center;
     display: flex;
+    flex-direction: column;
+}
+.middle-title {
+    justify-content: center;
+    align-items: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+.middle .middle-text-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.middle-text {
+    width: 150px;
+    height: 150px;
+    flex-wrap: wrap;
 }
 .lower {
     display: flex;
