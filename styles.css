@@ -1,22 +1,25 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .header-content, .footer {
+    padding: 0 120px;
     align-items: center;
     background-color: #1F2937;
     display: flex;
     justify-content: space-around;
 }
 .header {
+    font-weight: 900;
     font-size: 24px;
     color: #F9FAF8;
 }
 .top {
     justify-content: center;
     gap: 50px;
-    padding: 100px 200px;
+    padding: 80px;
     align-items: center;
     background-color: #1F2937;
     display: flex;
